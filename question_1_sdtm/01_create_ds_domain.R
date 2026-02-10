@@ -70,8 +70,8 @@ tryCatch(
         #Corrected value from raw dataset to match CT
         INSTANCE = if_else(INSTANCE == "Ambul Ecg Removal", "Ambul ECG Removal", INSTANCE),
         #Derived DSDECOD, DSTERM, DSCAT
-        DSDECOD  = if_else(!is.na(OTHERSP), OTHERSP, IT.DSDECOD), 
-        DSTERM   = if_else(!is.na(OTHERSP), OTHERSP, IT.DSTERM),
+        DSDECOD  = if_else(!is.na(OTHERSP), toupper(OTHERSP), toupper(IT.DSDECOD)), 
+        DSTERM   = if_else(!is.na(OTHERSP), toupper(OTHERSP), toupper(IT.DSTERM)),
         DSCAT    = if_else(DSDECOD == "Randomized", "PROTOCOL MILESTONE", "DISPOSITION EVENT"),
       ) 
     
@@ -178,7 +178,7 @@ tryCatch(
       na = ""
     )
     
-    cat("Records in DS:", nrow(ds), "\n")
+    cat("Records in DS:", nrow(final_DS), "\n")
     
     program_status <- "NO ERRORS"
   },
