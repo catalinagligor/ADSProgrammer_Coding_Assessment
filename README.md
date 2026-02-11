@@ -5,7 +5,10 @@ This repository contains an R-based clinical programming assessment covering:
 ## Contents
 - **SDTM**: SDTM DS Domain Creation using {sdtm.oak}
 - **ADaM**: ADaM ADSL Dataset Creation
-- **TLG**:  TLG - Adverse Events Reporting : Summary Table of TEAEs, Plot AE severity distribution by treatment, Plot Top 10 most frequent AEs (with 95% CI for incidence rates)
+- **TLG**:  TLG - Adverse Events Reporting :
+    - Summary Table of TEAEs
+    - Plot AE severity distribution by treatment
+    - Plot Top 10 most frequent AEs (with 95% CI for incidence rates)
 
 ## Tools & Packages
 - R
@@ -22,10 +25,10 @@ This repository contains an R-based clinical programming assessment covering:
 - **data/**
   Contains the raw dataset and Controlled Terminology (sdtm_ct.csv) dataset.
 
--**questions/**
+- **questions/**
 Contains a folder for each question in the Assessment. 
 
--**output/**
+- **output/**
 Contains for each question, the output dataset/file and a folder **log** where to find the log(s) file for each R Script.
 
 
