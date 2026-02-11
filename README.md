@@ -11,6 +11,7 @@ This repository contains an R-based clinical programming assessment covering:
     - Plot Top 10 most frequent AEs (with 95% CI for incidence rates)
 
 ## Structure of the project##
+**Walkthrough video available - please download it and review**
 
 - **data/metadata**
   Contains Controlled Terminology (sdtm_ct.csv) dataset.
