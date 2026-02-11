@@ -12,8 +12,8 @@ This repository contains an R-based clinical programming assessment covering:
 
 ## Structure of the project##
 
-- **data/**
-  Contains the raw dataset and Controlled Terminology (sdtm_ct.csv) dataset.
+- **data/metadata**
+  Contains Controlled Terminology (sdtm_ct.csv) dataset.
 
 - **questions/**
 Contains a folder for each question in the Assessment. 
