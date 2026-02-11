@@ -28,7 +28,10 @@ Contains for each question, the output dataset/file and a folder **log** where t
 - pharmaversesdtm
 - pharmaverseadam
 - dplyr
+- admiral
 - tidyverse
 - gtsummary
+- ggplot2
+  
 
 
