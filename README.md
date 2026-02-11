@@ -11,5 +11,8 @@ This repository contains an R-based clinical programming assessment covering:
 - R
 - sdtm.oak
 - pharmaverseraw
+- pharmaversesdtm
+- pharmaverseadam
 - dplyr
 - tidyverse
+- gtsummary
