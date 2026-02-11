@@ -1,4 +1,4 @@
-# ASD Programmer Coding Assessment
+# ADS Programmer Coding Assessment
 
 This repository contains an R-based clinical programming assessment covering:
 
